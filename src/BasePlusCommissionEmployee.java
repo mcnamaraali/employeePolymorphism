@@ -12,9 +12,14 @@ public class BasePlusCommissionEmployee extends CommissionEmployee {
 	
 	}
 	
+	public void setBaseSalary() {
+		baseSalary = baseSalary * 2.0;
+	}
+	
 	public double getBaseSalary() {
 		return baseSalary;
 	}
+	
 
 	@Override
 	public double earnings() {
